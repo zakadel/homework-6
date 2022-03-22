@@ -15,7 +15,7 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public class ValueSourceTestSearch {
 
-    String technic = "Смартфоны";
+    private static final String technic  = "Смартфоны";
 
     @BeforeAll
     static void preconditionAll() {
